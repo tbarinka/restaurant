@@ -3,26 +3,20 @@ import Pizza from './pizza.png';
 
 const content = document.getElementById("content");
 
-
-function header() {
-    const h = document.createElement('h1');
-    h.textContent = "Tony Pizza"
-    h.classList.add('header');
-    return h;
-}
 const homeImage = new Image();
 homeImage.src = Pizza;
 
-function blurb() {
+function loadHome() {
+    const h = document.createElement('h1');
+    h.textContent = "Tony Pizza"
+    h.classList.add('header');
+    
     const p = document.createElement('p');
     p.textContent = "Tony Pizza makes a pie and a slice with that authentic Tony touch.";
-    return p;
-}
-
-function loadHome() {
-    content.appendChild(header());
+    
+    content.appendChild(h);
     content.appendChild(homeImage);
-    content.appendChild(blurb());
+    content.appendChild(p);
 }
 
-export { header, homeImage, blurb, loadHome };
+export { homeImage, loadHome };
