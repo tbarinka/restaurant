@@ -14,6 +14,8 @@ function loadHome() {
     const p = document.createElement('p');
     p.textContent = "Tony Pizza makes a pie and a slice with that authentic Tony touch.";
     
+    content.textContent = "";
+
     content.appendChild(h);
     content.appendChild(homeImage);
     content.appendChild(p);
