@@ -1,3 +1,11 @@
-.header {
+.title {
     color: red;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+button {
+    height: 30px;
+    width: 70px;
 }

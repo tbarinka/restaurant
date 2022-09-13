@@ -1,15 +1,17 @@
 import { loadHome } from './home.js';
+import './style.css';
 
 const homeBtn = document.createElement('button');
 const contactBtn = document.createElement('button');
 const menuBtn = document.createElement('button');
-const head = document.createElement('div');
+const header = document.createElement('div');
+    header.classList.add("header");
 const content = document.getElementById("content");
 
-document.body.insertBefore(head, content);
-head.appendChild(homeBtn);
-head.appendChild(contactBtn);
-head.appendChild(menuBtn);
+document.body.insertBefore(header, content);
+header.appendChild(homeBtn);
+header.appendChild(contactBtn);
+header.appendChild(menuBtn);
 
 loadHome();
 

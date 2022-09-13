@@ -9,7 +9,7 @@ homeImage.src = Pizza;
 function loadHome() {
     const h = document.createElement('h1');
     h.textContent = "Tony Pizza"
-    h.classList.add('header');
+    h.classList.add('title');
     
     const p = document.createElement('p');
     p.textContent = "Tony Pizza makes a pie and a slice with that authentic Tony touch.";
