@@ -1,6 +1,8 @@
 import './style.css';
 import Pizza from './pizza.png';
 
+const content = document.getElementById("content");
+
 
 function header() {
     const h = document.createElement('h1');
@@ -17,5 +19,10 @@ function blurb() {
     return p;
 }
 
+function loadHome() {
+    content.appendChild(header());
+    content.appendChild(homeImage);
+    content.appendChild(blurb());
+}
 
-export { header, homeImage, blurb };
+export { header, homeImage, blurb, loadHome };
