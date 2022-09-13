@@ -1,1 +1,1 @@
-console.log("test");
+(()=>{"use strict";console.log("test"),document.getElementById("content").appendChild(function(){const t=document.createElement("h1");return t.textContent="Tony Pizza",t}())})();
