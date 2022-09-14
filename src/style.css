@@ -21,3 +21,7 @@ button {
     height: 500px;
     width: auto;
 }
+.menuButton {
+    height: 80px;
+    width: 200px;
+}

@@ -1,6 +1,7 @@
 import { loadHome } from './home.js';
 import './style.css';
 import { loadContact } from './contact.js';
+import { loadMenu } from './menu.js';
 
 const homeBtn = document.createElement('button');
     homeBtn.textContent = "Home";
@@ -14,6 +15,9 @@ const contactBtn = document.createElement('button');
     });
 const menuBtn = document.createElement('button');
     menuBtn.textContent = "Menu";
+    menuBtn.addEventListener('click', (e) => {
+        loadMenu();
+    });
 const header = document.createElement('div');
     header.classList.add("header");
 const content = document.getElementById("content");
