@@ -11,7 +11,7 @@ function loadHome() {
 
     
     const p = document.createElement('p');
-    p.textContent = "Tony Pizza makes a pie and a slice with that authentic Tony touch.";
+    p.textContent = "Order Delivery";
     
     content.textContent = "";
 
