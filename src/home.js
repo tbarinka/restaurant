@@ -5,6 +5,7 @@ const content = document.getElementById("content");
 
 const homeImage = new Image();
 homeImage.src = Pizza;
+homeImage.classList.add("image");
 
 function loadHome() {
     const h = document.createElement('h1');
