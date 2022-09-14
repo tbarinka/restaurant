@@ -4,6 +4,7 @@
 .header {
     display: flex;
     justify-content: center;
+    gap: 5px;
 }
 button {
     height: 30px;
