@@ -1,14 +1,52 @@
-.title {
-    color: red;
+* {
+    font-family: sans-serif;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+  
 .header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 5px;
 }
 button {
     height: 30px;
     width: 70px;
+}
+.red-strip {
+    background-color: red;
+    height: 30px;
+    width: 100%;
+}
+.header-container {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -15px;
+    height: 90px;
+}
+.button-container {
+    display: flex;
+    gap: 25px;
+    margin-right: 30px;
+}
+.header-button {
+    border-radius: 10px;
+    height: 55px;
+    width: 120px;
+    font-size: 30px;
+    background-color: yellow;
+    border: none;
+}
+.title {
+    color: black;
+    margin-left: 20px;
+    font-size: 50px;
+    font-style: italic;
 }
 
 #content {
@@ -18,8 +56,8 @@ button {
 }
 
 .image {
-    height: 500px;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
 .menuButton {
     height: 80px;
