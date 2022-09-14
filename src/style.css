@@ -63,9 +63,50 @@ button {
 
 .image {
     height: auto;
-    width: 100%
+    width: 100%;
 }
 .menuButton {
     height: 80px;
     width: 200px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    height: 80px;
+    background-color: red;
+    opacity: 0.8;
+}
+
+.footer-container {
+    position: fixed;
+    bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    left: 40%;
+    display: flex;
+    align-items: center;
+}
+
+spantext {
+    margin-top: -40px;
+    margin-left: -70px;
+}
+
+.footer-icon1,
+.footer-icon2 {
+    height: 60px;
+}
+.footer-icon2 {
+    position: absolute;
+    right: -160px;
+    bottom: -10px;
+}
+.footer-icon1 {
+    position: absolute;
+    right: -80px;
+    bottom: -10px;
 }

@@ -8,15 +8,8 @@ homeImage.src = Pizza;
 homeImage.classList.add("image");
 
 function loadHome() {
-
-    
-    const p = document.createElement('p');
-    p.textContent = "Order Delivery";
-    
     content.textContent = "";
-
     content.appendChild(homeImage);
-    content.appendChild(p);
 }
 
 export { homeImage, loadHome };
