@@ -4,8 +4,14 @@ import { loadContact } from './contact.js';
 
 const homeBtn = document.createElement('button');
     homeBtn.textContent = "Home";
+    homeBtn.addEventListener('click', (e) => {
+        loadHome();
+    });
 const contactBtn = document.createElement('button');
     contactBtn.textContent = "Contact";
+    contactBtn.addEventListener('click', (e) => {
+        loadContact();
+    });
 const menuBtn = document.createElement('button');
     menuBtn.textContent = "Menu";
 const header = document.createElement('div');
