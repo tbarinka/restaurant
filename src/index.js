@@ -1,5 +1,6 @@
 import { loadHome } from './home.js';
 import './style.css';
+import { loadContact } from './contact.js';
 
 const homeBtn = document.createElement('button');
     homeBtn.textContent = "Home";
