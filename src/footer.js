@@ -21,7 +21,7 @@ function loadFooter() {
     const span = document.createElement('span');
         span.classList.add("footer-container");
     const spanText = document.createElement('spantext');
-        spanText.textContent = "Order Delivery"
+        spanText.textContent = "Order Delivery:"
         spanText.classList.add('footer-text');
 
     content.after(footer);

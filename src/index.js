@@ -7,6 +7,6 @@ import { loadFooter} from './footer.js';
 
 loadHeader();
 loadHome();
-loadFooter();
+//loadFooter();
 
 
