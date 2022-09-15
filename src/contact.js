@@ -3,17 +3,23 @@ import Map from './map.png';
     const myMap = new Image
     myMap.src = Map;
     myMap.classList.add('map');
+import Pizza from './pizza.png';
+const contactImage = new Image();
+contactImage.src = Pizza;
+contactImage.classList.add("image");
+import { loadHeader } from './header.js';
 
 
 function loadContact() {
+
     const content = document.getElementById("content");
     const brk = document.createElement('div');
-        brk.innerHTML = "<br /><br /><br /><br /><br /><br /><br /> "
+        brk.innerHTML = "<br /><br /><br /><br />"
     
-
     content.textContent = "";
-    content.appendChild(brk);
-    content.appendChild(contactInfo());
+    content.appendChild(contactImage);
+    contactInfo();
+    
 }
 
 function leftBox() {
@@ -25,7 +31,7 @@ function leftBox() {
     const phone = document.createElement("div");
         phone.textContent = "📞    123 456 789";
     const address = document.createElement("div")
-        address.innerHTML = "🏠    7300 Legacy Dr, <br /> Plano, TX 75024"
+        address.innerHTML = "🏠    7300 Legacy Dr, <br /> Plano, TX 75024<br /><br />"
         address.style.textAlign = 'center';
     
     infoBox.appendChild(contact);
@@ -41,7 +47,7 @@ function contactInfo() {
     div.appendChild(leftBox());
     div.appendChild(myMap);
 
-    return div
+    content.appendChild(div);
 
 }
 

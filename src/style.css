@@ -12,6 +12,7 @@ html, body {
     justify-content: center;
     gap: 5px;
     position: fixed;
+    top: 0;
     width: 100%;
 }
 button {
@@ -82,10 +83,20 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: fixed;
+    top: 115px;
+    background-color: rgb(255,255,255);
+    width: 50%;
+    height: 600px;
+    border-radius: 10px;
+    border: solid black;
+    
 }
 .map {
     height: 400px;
     width: auto;
+    border: solid black;
+    border-radius: 10px;
 }
 
 
