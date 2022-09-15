@@ -7,7 +7,6 @@ import Pizza from './pizza.png';
 const contactImage = new Image();
 contactImage.src = Pizza;
 contactImage.classList.add("image");
-import { loadHeader } from './header.js';
 
 
 function loadContact() {
@@ -28,11 +27,13 @@ function leftBox() {
         infoBox.classList.add('info-box');
     const contact = document.createElement('h1');
         contact.innerHTML = "Contact Us"
+        contact.style.textAlign = "center";
     const phone = document.createElement("div");
-        phone.textContent = "📞    123 456 789";
+        phone.textContent = "📞 123 456 789";
+        phone.style.textAlign = "center";
     const address = document.createElement("div")
-        address.innerHTML = "🏠    7300 Legacy Dr, <br /> Plano, TX 75024<br /><br />"
-        address.style.textAlign = 'center';
+        address.innerHTML = "<br />7300 Legacy Dr, Plano, TX 75024<br /><br />"
+        address.style.textAlign = "center";
     
     infoBox.appendChild(contact);
     infoBox.appendChild(phone);
