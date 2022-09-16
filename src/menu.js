@@ -1,27 +1,23 @@
 import './style.css';
+import Pizza from './pizza.png';
+const menuImage = new Image();
+menuImage.src = Pizza;
+menuImage.classList.add("image");
 
-
-function slices() {
+function loadMenu() {
     const content = document.getElementById("content");
-    const container = document.createElement('div');
-    const slice = document.createElement("h3");
-        slice.textContent = "Pizza by Slice";
-    const basil = document.createElement("button");
-        basil.classList.add('menuButton');
-        basil.textContent = "basil";
-    const special = document.createElement("button");
-    const pepperoni = document.createElement("button");
-
+    
     content.textContent = "";
-
-    content.appendChild(container);
-    container.appendChild(slice);
-    container.appendChild(basil);
+    content.appendChild(menuImage);
+    loadMenuContainer();
 
 };
 
-function loadMenu() {
-    slices();
+function loadMenuContainer() {
+    const div = document.createElement('div');
+        div.classList.add('menu-container');
+    content.appendChild(div);
+
 }
 
 export { loadMenu }

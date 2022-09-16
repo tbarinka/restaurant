@@ -102,6 +102,18 @@ button {
 .info-box > div {
     font-size: 20px;
 }
+/* menu */
+.menu-container {
+
+    position: absolute;
+    top: 115px;
+    background-color: rgba(248, 244, 244, 0.9);
+    width: 50%;
+    height: 650px;
+    border-radius: 10px;
+    border: solid black;
+    
+}
 
 
 /* footer */

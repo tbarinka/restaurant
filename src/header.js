@@ -30,7 +30,7 @@ function loadHeader() {
         menuBtn.textContent = "Menu";
         menuBtn.classList.add('header-button');
         menuBtn.addEventListener('click', (e) => {
-        loadMenu();
+            loadMenu();
         });
     const h = document.createElement('h1');
     h.textContent = "Tony Pizza Slice and Pie"
