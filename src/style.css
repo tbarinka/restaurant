@@ -114,7 +114,9 @@ button {
     border: solid black;
     
 }
-
+.menuItem {
+    height: 200px;
+}
 
 /* footer */
 .foot {
