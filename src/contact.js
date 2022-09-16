@@ -42,6 +42,8 @@ function leftBox() {
     return infoBox;
 }
 function contactInfo() {
+    //const backgroundDiv = document.createElement('div');
+        //backgroundDiv.classList.add('background');
     const div = document.createElement('div');
         div.classList.add('contact-info');
     
