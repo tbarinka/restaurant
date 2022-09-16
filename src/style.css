@@ -105,6 +105,10 @@ button {
 /* menu */
 .menu-container {
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
     position: absolute;
     top: 115px;
     background-color: rgba(248, 244, 244, 0.9);
@@ -113,9 +117,14 @@ button {
     border-radius: 10px;
     border: solid black;
     
+    
 }
 .menuItem {
-    height: 200px;
+    height: auto;
+    margin-top: -30px;
+}
+.menu-title {
+    margin-top: -30px;
 }
 
 /* footer */
